@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    background-color: lightgray;
+
+
+}
+
+.navBar{
+    display: flex;
+    width: 100%;
+    
+    padding: 0 20px;  
+}
+
+.navBar-left{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;   
+}
+
+.navBar-right{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo{
+    height: 5vh;
+ color: black;
+}
+
+.menu{
+    display: flex;
+    gap: 45px;
+    font-size: 25px; 
+    text-align: right;
+    height: 5vh;
+
+
+}
+
+main{
+    background-color: rgba(55, 55, 55, 1);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.menulink{
+    color: black;
+}
+
+
+
+
+.menulink:hover {
+    color: blue;
+
+}
+
+body{
+    background-color: rgba(55, 55, 55, 1);
+    color: white
+}
+
+
+
+.WieBenIk{
+    background-color: #5b5d59;
+    width: 500px;
+}
+
+.WieBenIkMetFoto{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.konijnfotoimg{
+    height: 250px;
+}
+
+.rotsbergenimg{
+    height: 250px;
+}
+
+.katvideo{
+    height: 500px;
+}
+
+.WatKanIk{
+    background-color: #5b5d59;
+    width: 500px;
+}
+
+
+.WatKanIkFlex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.placeholderimg{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.placeholderflex{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.placeholder{
+    height: 400px;
+    width: 400px;
+}
+
+table, th, td {
+    border-top: 456px;
+    border-collapse: collapse;
+    border: 4px solid white
+}
+
+.tabelwerk{
+    padding: 5px;
+    background-color: #5b5d59;
+    width: 650px;
+}
+
+.tabelwerkpadding{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+tr{
+    color: white;
+}
+
+.workinformation{
+    padding: 5px;
+    width: 500px;
+    background-color: #5b5d59;
+}
+
+.workinfopadding{
+    padding: 20px;
+}
+
+.contactlinks{
+    background-color: #5b5d59;
+    padding: 5px;
+}
+
+.contactlinkspadding{
+    padding: 20px;
+}
